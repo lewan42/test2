@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myapp-ear/myapp-ear.iml" filepath="$PROJECT_DIR$/myapp-ear/myapp-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapp-ejb-war/myappejbwar.iml" filepath="$PROJECT_DIR$/myapp-ejb-war/myappejbwar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myappy-parent.iml" filepath="$PROJECT_DIR$/myappy-parent.iml" />
+    </modules>
+  </component>
+</project>

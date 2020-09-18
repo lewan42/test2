@@ -1,0 +1,28 @@
+{{data.name}}
+
+<button ng-click="generate(data)" class="btn btn-success btn-circle btn-circle-sm m-1">
+    <i class="icon-rocket"></i>
+</button>
+
+<a class="not-active" href="/create_new_node">
+    <button ng-click="create(data)" class="btn btn-success btn-circle btn-circle-sm m-1">
+        <i class="icon-plus">
+
+        </i>
+    </button>
+</a>
+
+<a class="not-active" href="/edit_node">
+    <button ng-click="edit(data)" class="btn btn-success btn-circle btn-circle-sm m-1">
+        <i class="icon-edit"></i>
+    </button>
+</a>
+
+<button ng-click="delete(data)" class="btn btn-success btn-circle btn-circle-sm m-1">
+    <i class="icon-remove"></i>
+</button>
+
+
+<ul>
+    <li ng-repeat="data in data.nodes" ng-include="'item.html'"></li>
+</ul>

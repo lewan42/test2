@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+<application>
+  <display-name>MyAppY-Application-DisplayName</display-name>
+  <description>MyAppY-Application-Description</description>
+  <module>
+    <web>
+      <web-uri>myapp-ejb-war-1.0.0-SNAPSHOT.war</web-uri>
+      <context-root>myapp-ejb</context-root>
+    </web>
+  </module>
+</application>

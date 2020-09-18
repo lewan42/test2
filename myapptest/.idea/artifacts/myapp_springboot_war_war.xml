@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myapp-springboot-war:war">
+    <output-path>$PROJECT_DIR$/myapp-springboot-war/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>myapp-springboot-war</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myapp-springboot-war-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="myapp-springboot-war:war exploded" />
+    </root>
+  </artifact>
+</component>

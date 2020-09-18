@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application>
+    <prefer-application-packages>
+        <package-name>org.slf4j.*</package-name>
+        <package-name>org.springframework.*</package-name>
+    </prefer-application-packages>
+</weblogic-application>
